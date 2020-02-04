@@ -9,6 +9,7 @@ def solve(N, A):
 
 # S = input()
 # N = int(input())
+# L = list(input()) # 文字列をlistにする
 # N, M = map(int, input().split())
 # A = list(map(int, input().split()))
 # B = [int(input()) for _ in range(N)]
