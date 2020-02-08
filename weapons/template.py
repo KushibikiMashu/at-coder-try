@@ -20,7 +20,7 @@ def resolve():
 
     print(0)
 
-resolve()
+# resolve()
 
 # ゼロ埋め
 # list = [0] * N
