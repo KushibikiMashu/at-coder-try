@@ -2,25 +2,25 @@
 # import fractions
 # import numpy as np
 
-# MOD = 10 ** 9 + 7
+def resolve():
+    # MOD = 10 ** 9 + 7
 
-def solve(N, A):
-    return 0
+    # S = input()
+    # N = int(input())
+    # L = list(input()) # 文字列をlistにする
+    # N, M = map(int, input().split())
+    # A = list(map(int, input().split()))
+    # B = [int(input()) for _ in range(N)]
+    # A = []
+    # B = []
+    # for _ in range(N):
+    #     a, b = list(map(int, input().split()))
+    #     A.append(a)
+    #     B.append(b)
 
-# S = input()
-# N = int(input())
-# L = list(input()) # 文字列をlistにする
-# N, M = map(int, input().split())
-# A = list(map(int, input().split()))
-# B = [int(input()) for _ in range(N)]
-# A = []
-# B = []
-# for _ in range(N):
-#     a, b = list(map(int, input().split()))
-#     A.append(a)
-#     B.append(b)
+    print(0)
 
-print(solve(N, A))
+resolve()
 
 # ゼロ埋め
 # list = [0] * N

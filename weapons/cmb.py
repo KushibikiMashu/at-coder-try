@@ -16,3 +16,7 @@ def cmb(n, r):
         return 0
     r = min(r, n - r)
     return fact[n] * factinv[r] * factinv[n-r] % MOD
+
+# 組み合わせを求める
+from itertools import combinations
+base = list(combinations("abcde",3))
