@@ -2,7 +2,7 @@
 # import fractions
 # import numpy as np
 
-def resolve():
+def solve():
     # MOD = 10 ** 9 + 7
 
     # S = input()
@@ -18,9 +18,13 @@ def resolve():
     #     A.append(a)
     #     B.append(b)
 
-    print(0)
+    return 0
 
-# resolve()
+# print(solve())
+
+# テスト用
+def resolve():
+    print(solve())
 
 # ゼロ埋め
 # list = [0] * N
