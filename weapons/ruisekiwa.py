@@ -1,6 +1,6 @@
-a = [i for i in range(11)]
-s = [0]
-for i in a:
-    s.append(s[-1] + i)
-print(s[3] - s[0]) # 0 + 1 + 2 = 3
-print(s[11] - s[8]) # 8 + 9 + 10 = 27
+import itertools
+
+ary = [1, 3, 5, 7, 9]
+cumsum = itertools.accumulate(ary)
+print(list(cumsum))
+# -> [1, 4, 9, 16, 25]
