@@ -12,12 +12,16 @@ def solve():
     # A = list(map(int, input().split()))
     # B = [int(input()) for _ in range(N)]
     # A = [list(input().split()) for _ in range(N)]
+
     # A = []
     # B = []
     # for _ in range(N):
     #     a, b = list(map(int, input().split()))
     #     A.append(a)
     #     B.append(b)
+    # S = [tuple(map(int, input().split())) for _ in range(N)]
+    # for (a, b) in S:
+    #   do something
 
     return 0
 

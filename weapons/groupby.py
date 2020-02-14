@@ -12,3 +12,10 @@ for key, group in gr:
 # 1: [1, 1]
 # 0: [0]
 # 1: [1]
+
+# ソートするといい
+
+# import itertools
+# gr = itertools.groupby(bi)
+# for key, group in gr:
+#     a

@@ -8,3 +8,4 @@ n = 12345
 last_digit = str(n)[-1]
 print(last_digit) # 5
 
+# 辞書の扱い
