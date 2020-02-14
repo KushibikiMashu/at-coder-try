@@ -29,3 +29,10 @@ def factorize(n):
 
 # factorize(900)
 # [(2, 2), (3, 2), (5, 2)]
+
+n = int(input())
+ans = 0
+while n > 0:
+    ans = len(factorize(n))
+    n -= 1
+print(ans)
