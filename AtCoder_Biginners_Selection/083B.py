@@ -1,10 +1,9 @@
 def solve():
-    A = list(map(int, input().split()))
-
+    n, mi, ma = list(map(int, input().split()))
     ans = 0
-    for i in range(1, A[0]+1):
+    for i in range(1, n+1):
         s = sum(list(map(int, str(i))))
-        if A[1] <= s <= A[2]:
+        if mi <= s <= ma:
             ans += i
     return ans
 
