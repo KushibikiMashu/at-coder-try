@@ -3,8 +3,26 @@
 # import numpy as np
 
 def solve():
-    # MOD = 10 ** 9 + 7
+    # N = int(input())
+    # N, M = map(int, input().split())
+    # A = list(map(int, input().split()))
+    # B = [int(input()) for _ in range(N)]
 
+    return 0
+
+# print(solve())
+
+# テスト用
+def resolve():
+    print(solve())
+
+
+# -----
+
+
+# MOD = 10 ** 9 + 7
+
+def solve():
     # S = input()
     # N = int(input())
     # L = list(input()) # 文字列をlistにする
