@@ -25,7 +25,7 @@ def resolve():
 def solve():
     # S = input()
     # N = int(input())
-    # L = list(input()) # 文字列をlistにする
+    # L = list(input()) # 文字列をlistにする（'abc' -> ['a', 'b', 'c']）
     # N, M = map(int, input().split())
     # A = list(map(int, input().split()))
     # B = [int(input()) for _ in range(N)]

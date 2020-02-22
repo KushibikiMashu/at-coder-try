@@ -39,7 +39,7 @@ d = {}
 for a, b in A:
     d.setdefault(a, []).append(b)
 
-print(V) # {1: [2, 3], 2: [3]}
+print(d) # {1: [2, 3], 2: [3]}
 
 for k, v in d.items():
     print(k, v)
