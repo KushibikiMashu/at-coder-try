@@ -41,7 +41,7 @@ def count_divisor(n):
         divisor += 1
         count *= (degree + 1)
     if n > 1:
-        count += 1
+        count *= 2
     return count
 
 print(count_divisor(900)) # 27
