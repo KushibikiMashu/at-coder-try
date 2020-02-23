@@ -1,3 +1,5 @@
+MOVE = [(0,1),(0,-1),(1,0),(-1,0)]
+
 from collections import deque
 
 # [深さ優先探索]

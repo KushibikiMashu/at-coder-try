@@ -29,6 +29,7 @@ def solve():
     # N, M = map(int, input().split())
     # A = list(map(int, input().split()))
     # B = [int(input()) for _ in range(N)]
+    # B = [list(input()) for _ in range(N)] # グリッドグラフ用
     # A = [list(input().split()) for _ in range(N)]
 
     # A = []
