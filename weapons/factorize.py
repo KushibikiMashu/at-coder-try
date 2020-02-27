@@ -44,4 +44,5 @@ def count_divisor(n):
         count *= 2
     return count
 
+# 1, 2, 3, 4, 5, 6, ... 300, 450, 900
 print(count_divisor(900)) # 27

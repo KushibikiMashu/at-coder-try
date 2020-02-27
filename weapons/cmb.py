@@ -22,6 +22,26 @@ def cmb(n, r):
     r = min(r, n - r)
     return fact[n] * factinv[r] * factinv[n-r] % MOD
 
+# ---
+def prepare(n, MOD):
+    f = 1
+    factorials = [1] * (n + 1)
+    for m in range(1, n + 1):
+        f *= m
+        f %= MOD
+        factorials[m] = f
+    inv = pow(f, MOD - 2, MOD)
+    invs = [1] * (n + 1)
+    invs[n] = inv
+    for m in range(n, 1, -1):
+        inv *= m
+        inv %= MOD
+        invs[m - 1] = inv
+
+    return factorials, invs
+
+# ---
+
 # n = 10^5なら回せる
 # factinv（(r!)^-1）だけ計算できていたら、nのfact（n!）がなくても組み合わせを求めることができる
 # ncr = n! * (n-r)!^-1 * r!^-1
