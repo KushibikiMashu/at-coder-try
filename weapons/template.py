@@ -28,11 +28,28 @@ def resolve():
 def solve():
     # S = input()
     # N = int(input())
-    # L = list(input()) # 文字列をlistにする（'abc' -> ['a', 'b', 'c']）
-    # N, M = map(int, input().split())
-    # A = list(map(int, input().split()))
-    # B = [int(input()) for _ in range(N)]
     # B = [list(input()) for _ in range(N)] # グリッドグラフ用
+
+    # 文字列をlistにする（'abc' -> ['a', 'b', 'c']）
+    # L = list(input())
+
+    # 1 2
+    # N, M = map(int, input().split())
+
+    # 1 2 3 4 5 6 7
+    # A = list(map(int, input().split()))
+
+    # M = 2
+    # 1
+    # 2
+    # B = [int(input()) for _ in range(N)]
+
+    # N = 3
+    # 8 3
+    # 4 2
+    # 2 1
+    # A = [list(map(int, input().split())) for _ in range(N)]
+    # str
     # A = [list(input().split()) for _ in range(N)]
 
     # A = []
