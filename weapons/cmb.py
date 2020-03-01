@@ -1,5 +1,8 @@
 # see https://www.planeta.tokyo/entry/5195/
 
+# 重複組合せ
+# n H k = (n+k-1) C k
+
 # 高速に組み合わせの数を求める
 MOD = 10 ** 9 + 7
 fact = [1, 1]
@@ -23,6 +26,17 @@ def cmb(n, r):
     return fact[n] * factinv[r] * factinv[n-r] % MOD
 
 # ---
+
+# n = 10^5なら回せる
+# factinv（(r!)^-1）だけ計算できていたら、nのfact（n!）がなくても組み合わせを求めることができる
+# ncr = n! * (n-r)!^-1 * r!^-1
+def ncr(n, r):
+    ret = factinv[r]
+    for i in range(n, n-r, -1):
+        ret = ret * i % MOD
+    return ret
+
+# ---
 def prepare(n, MOD):
     f = 1
     factorials = [1] * (n + 1)
@@ -39,17 +53,6 @@ def prepare(n, MOD):
         invs[m - 1] = inv
 
     return factorials, invs
-
-# ---
-
-# n = 10^5なら回せる
-# factinv（(r!)^-1）だけ計算できていたら、nのfact（n!）がなくても組み合わせを求めることができる
-# ncr = n! * (n-r)!^-1 * r!^-1
-def ncr(n, r):
-    ret = factinv[r]
-    for i in range(n, n-r, -1):
-        ret = ret * i % MOD
-    return ret
 
 # -----
 # nCrで
