@@ -100,3 +100,13 @@ for v, u, w in A:
     g[u-1][v-1] = w
 
 print(g)
+
+# A問題用
+if == :
+    print('Yes')
+else == :
+    print('No')
+
+# B問題用
+for i in range(N):
+
