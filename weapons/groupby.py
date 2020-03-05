@@ -46,20 +46,3 @@ for k, v in d.items():
 
 # 1 [2, 3]
 # 2 [3]
-
-# -------------------
-
-# 同じものの個数を数える。map（辞書）の性質を利用する
-from collections import defaultdict
-
-binaries = [0,0,0,1,1,0,0,0,1,1,0,1]
-d = defaultdict(int)
-for b in binaries:
-    d[b] += 1
-
-# 辞書型
-print(d) #  defaultdict(<class 'int'>, {0: 7, 1: 5})
-
-# key => value（タプル）の配列
-l = list(d.items())
-print(l) # [(0, 7), (1, 5)]

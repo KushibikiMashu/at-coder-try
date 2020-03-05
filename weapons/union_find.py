@@ -5,18 +5,32 @@ rank = [0] * n
 
 # 木の根(root)を求める
 # 親を求める
-def find(x):
+def find(x, parent):
     if parent[x] == x:
         return x
     else:
         # keyとvalueが同じ位置に当たるまで親をたどる
-        parent[x] = find(parent[x])
+        parent[x] = find(parent[x], parent)
         return parent[x]
 
 # 併合
-def unite(x, y):
-    x = find(x)
-    y = find(y)
+def unite(x, y, parent):
+    x = find(x, parent)
+    y = find(y, parent)
+    if x == y: return
+
+    parent[y] = x
+
+# 同じグループか判定する
+def isSame(x, y, parent):
+    return find(x, parent) == find(y, parent)
+
+# ---
+# rank有りのunite
+# ---
+def unite(x, y, parent):
+    x = find(x, parent)
+    y = find(y, parent)
     if x == y: return
 
     if rank[x] < rank[y]:
@@ -27,6 +41,3 @@ def unite(x, y):
             rank[x] += 1
             return rank[x]
 
-# 同じグループか判定する
-def isSame(x, y):
-    return find(x) == find(y)
