@@ -6,6 +6,9 @@ class UnionFind:
         self.parent = [i for i in range(n)]
         self.rank = [0] * n
 
+    def count(self, x):
+        return self.parent.count(x)
+
     def find(self, x):
         if self.parent[x] == x:
             return x

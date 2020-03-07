@@ -10,6 +10,8 @@ def solve():
     # N, M = map(int, input().split())
     # A = list(map(int, input().split()))
     # A = [int(input()) for _ in range(N)]
+    # for _ in range(N):
+    #     a, b = list(map(int, input().split()))
 
     return 0
 
