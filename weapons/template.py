@@ -12,6 +12,9 @@ def solve():
     # A = [int(input()) for _ in range(N)]
     # for _ in range(N):
     #     a, b = list(map(int, input().split()))
+    # 二次元配列
+    # INF = 10 ** 9
+    # d = [[INF] * (M + 100) for _ in range(N)]
 
     return 0
 
