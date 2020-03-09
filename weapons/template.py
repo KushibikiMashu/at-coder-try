@@ -1,3 +1,5 @@
+# https://docs.google.com/forms/d/144YmZB8WhQg691Vd4_sJlQ6QOYpXYnfPEP4iOBWqesw/edit
+
 # import math
 # import fractions
 # import numpy as np
@@ -9,7 +11,7 @@ def solve():
     # N = int(input())
     # N, M = map(int, input().split())
     # A = list(map(int, input().split()))
-    # A = [int(input()) for _ in range(N)]
+    # A = [int(input()) for _ in range(N)]]
     # for _ in range(N):
     #     a, b = list(map(int, input().split()))
     # 二次元配列
@@ -19,6 +21,9 @@ def solve():
     return 0
 
 # print(solve())
+
+# def solve()が@return voidのとき
+# solve()
 
 # テスト用
 def resolve():
