@@ -119,4 +119,3 @@ else == :
 
 # B問題用
 for i in range(N):
-
