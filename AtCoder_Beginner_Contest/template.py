@@ -1,5 +1,6 @@
 def solve():
     # N = int(input())
+    # S = input()
     # N, M = map(int, input().split())
     # A = list(map(int, input().split()))
     # A = [int(input()) for _ in range(N)]]
@@ -19,6 +20,6 @@ def solve():
 
 # テスト用
 def resolve():
-    print(solve()
+    print(solve())
 
 

@@ -10,7 +10,7 @@ NUMBER=$1
 
 mkdir "$NUMBER"
 
-for i in A B C D E
+for i in A B C
 do
   cp template.py "$NUMBER/$i.py"
 done
