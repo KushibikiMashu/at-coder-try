@@ -1,4 +1,3 @@
-
 # 最大公約数
 # 例: x=8, y=12のとき、最大公約数は
 from fractions import gcd

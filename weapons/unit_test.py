@@ -18,6 +18,5 @@ def solve():
 
 # テスト用
 def resolve():
-    print(solve())
-
+    print(solve()
 
