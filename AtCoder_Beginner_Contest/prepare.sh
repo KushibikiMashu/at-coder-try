@@ -12,5 +12,5 @@ mkdir "$NUMBER"
 
 for i in A B C
 do
-  cp template.py "$NUMBER/$i.py"
+  touch "$NUMBER/$i.py"
 done
