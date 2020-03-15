@@ -3,7 +3,7 @@ def solve():
     # S = input()
     # N, M = map(int, input().split())
     # A = list(map(int, input().split()))
-    # A = [int(input()) for _ in range(N)]]
+    # A = [int(input()) for _ in range(N)]
     # A = [list(map(int, input().split())) for _ in range(N)]
     # for _ in range(N):
     #     a, b = list(map(int, input().split()))
@@ -22,5 +22,4 @@ def solve():
 def resolve():
     print(solve())
 #     solve()
-
 
