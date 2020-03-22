@@ -1,5 +1,5 @@
 # 最大公約数
-# 例: x=8, y=12のとき、最大公約数は
+# 例: x=8, y=12のとき、最大公約数は4
 from fractions import gcd
 gcd(x, y)
 

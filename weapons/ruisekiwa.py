@@ -1,6 +1,6 @@
-import itertools
+from itertools import accumulate
 
 ary = [1, 3, 5, 7, 9]
-cumsum = itertools.accumulate(ary)
+cumsum = accumulate(ary)
 print(list(cumsum))
 # -> [1, 4, 9, 16, 25]
